@@ -8,7 +8,7 @@ alpha = collections.deque()
 loc = list()
 
 for _ in range(n):
-    # 반복문으로 여러줄을 입력 받아야 할 때는 input()으로 입력 받는다면 시간초과가 발생할 수 있음
+    # 반복문으로 여러줄을 입력 받아야 할 때 input()으로 입력 받는다면 시간초과가 발생할 수 있음
     info = stdin.readline()
 
     # 1이면 맨 뒤에 문자 추가
